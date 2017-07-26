@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>RandStuff.ru</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/OpenSanssemibold/stylesheet.css">
+    <link rel="stylesheet" href="fonts/OpenSansRegular/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="head">
+            <div class="inner">
+                <div class="logo">
+                    <a href="#"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="#" class="item sel"> <span class="number"></span> Числа</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item"> <span class="vk"></span> Определить победителя</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item"> <span class="city"></span> Города</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item"> <span class="say"></span> Мудрые мысли</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item"> <span class="fact"></span> Факты</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item"> <span class="ask"></span> Ответы и предсказания</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item"> <span class="question"></span>Вопросы</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item"> <span class="ticket"></span>Счастливые билеты</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item"> <span class="passwd"></span>Пароли</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item"> <span class="gift"></span> Интересные конкурсы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="inner">
+            <div class="content">
+                <h1 id="zag">Cлучайное число:</h1>
+                <div id="numb" class="single">
+                    <!--                    <span class="new">-->
+                    <div id="one" style="bottom: 0;">1</div>
+                    <div id="two" style="bottom: 0;">8</div>
+                    <!--                    </span>-->
+                </div>
+                <div id="number_save">
+                    <span>сохранить это число</span>
+                </div>
+                <button id="button"></button>
+                <div id="decriptor">
+                    новую последовательность из
+                    <div id="slider" data-min="1" data-max="50" data-val="1" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                        <div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 0%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span></div>
+                    <span id="slider-val" data-words="случайного числа,случайных чисел,случайных чисел">1 случайного числа</span>
+                    <div id="number-from">
+                        <label class="sel">
+                            <input type="radio" name="from" value="range" checked="checked">
+                            <span>из диапазона</span>
+                        </label> или
+                        <label>
+                            <input type="radio" name="from" value="list"><span>из списка</span>
+                        </label>
+                        <br>
+                        <ul>
+                            <li class="number-from-range ">от
+                                <input id="number-start" type="text" maxlength="9" value="1" autocomplete="off" >до
+                                <input id="number-end" type="text" maxlength="9" value="100" autocomplete="off">
+                            </li>
+                            <!--
+                            <li class="number-from-list">
+                                <textarea id="number-list" maxlength="65536" autocomplete="off" placeholder="укажите список целых чисел"></textarea>
+                            </li>
+-->
+                        </ul>
+                    </div>
+                </div>
+                <div id="extra">
+                    <div id="number-app"><a href="http://vk.com/app2846704" target="_blank">Приложение во ВКонтакте <i class="fa fa-vk" aria-hidden="true"></i></a></div>
+                    <div id="number-api"><span>Виджет ГСЧ на сайт</span></div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="inner">
+                <div class="title">Поделится:</div>
+                <div class="title2">Подписаться:</div>
+                <div class="soc_seti">
+                    <a href="#" class="soc_a1"></a>
+                    <a href="#" class="soc_a2"></a>
+                    <a href="#" class="soc_a3"></a>
+                    <a href="#" class="soc_a4"></a>
+                    <a href="#" class="soc_a5"></a>
+                    <a href="#" class="soc_a6"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/jquery-1.12.0.min.js"></script>
+   <script src = "js/jquery-ui.min.js"></script>
+   <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/number.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
